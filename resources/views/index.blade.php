@@ -31,4 +31,7 @@
         </div>
     </div>
     <x-idea/>
+    @php
+        dd(env('DB_CONNECTION'));
+    @endphp
 </x-app-layout>
